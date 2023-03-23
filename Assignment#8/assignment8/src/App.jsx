@@ -1,8 +1,9 @@
+import FavoriteSites from "./components/FavoriteSites";
 
 function App() {
   return (
     <div className="App">
-      <p>Hi!</p>
+      <FavoriteSites/>
     </div>
   );
 }
