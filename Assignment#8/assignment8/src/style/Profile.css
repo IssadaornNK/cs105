@@ -1,0 +1,13 @@
+.center {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    width: 40%;
+}
+
+.body:hover {
+    color: red;
+}
+.bord:hover{
+    border: 1px solid red;
+}

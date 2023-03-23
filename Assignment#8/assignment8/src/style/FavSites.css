@@ -1,0 +1,14 @@
+.li{
+    list-style-type: none;
+}
+.ul{
+    color: lightgreen;
+    text-decoration: none;
+}
+.ul:hover{
+    color: red;
+}
+.center{
+    text-align: center;
+    margin: 20px;
+}
