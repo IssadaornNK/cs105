@@ -1,3 +1,4 @@
+import {Box, Typograpy,Modal, TextField, Button} from "@mui/material";
 import {useState} from "react";
 import CardList from "./CardList";
 
@@ -52,5 +53,32 @@ function Todo() {
     </div>
   )
 }
+
+const addNewTaskBarStyle = {
+    padding: "20px",
+    background: "#fefffe",
+    width:{xs:"300px", md:"50px"},
+    borderRadius:"10px",
+    margin: "20px 0px",
+    fontSize:"25px",
+    color: "#7b7b7b",
+    display: "flex",
+    alignItems: "center",
+    justifyContent:"center",
+    boxShadow: "0 4px 8px rgba(0,0,0,0.2)",
+};
+
+const wwrapperTodoListStyle = {
+    display:"flex",
+    flexDirection: "column",
+    alignItems: "center",
+    marginTop: "20px",
+};
+
+const wrapperHeaderStyle = {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems:"center",
+};
 
 export default Todo
