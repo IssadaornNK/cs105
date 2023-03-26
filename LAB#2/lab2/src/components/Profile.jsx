@@ -2,8 +2,8 @@ import "./Profile.css";
 function Profile(){
     return(
         <div className="layout">
-        <img src="img/Me.jpg" alt="profile"/>
-        <h1 className="name">Ping Kiadtikul</h1>
+        <img src="public/img/Me.jpeg" alt="profile"/>
+        <h1 className="name">Issadaorn Kulsantao</h1>
         <hr></hr>
         </div>
     )
