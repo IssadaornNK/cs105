@@ -81,4 +81,26 @@ const wrapperHeaderStyle = {
     alignItems:"center",
 };
 
+const headerTextSyle = {
+    color: "#fefffb",
+    font:{xs:"50px", md:"60px"},
+};
+
+const headerTodoListLengthStyle = {
+    padding:"20px 30px",
+    backgroundColor: "#b0a3f5",
+    boxShadow: "0 4px 8px rgba(0,0,0,0.2)",
+    fontSize: "50px",
+    borderRadius:"10px",
+    color: "white",
+    fontWeight:"bold",
+};
+
+const modalStyle = {
+    display:"flex",
+    flexDirection:"column",
+    alignItems: "center",
+    justifyContent: "center",
+}
+
 export default Todo
