@@ -13,8 +13,8 @@ import AccountBoxIcon from '@mui/icons-material/AccountBox';
 
 function Sidebar(){
     return(
-        <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
-            <List component="nav" aria-label="main mailbox folders">
+        <Box sx={{ display:'flex', justifyContent:'flex-end' }}>
+            <List>
                 <ListItemButton>
                 <ListItemIcon>
                     <HomeIcon />
