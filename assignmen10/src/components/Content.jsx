@@ -10,7 +10,7 @@ import {
 function Content() {
     return (
         <Box>
-            <Grid container spacing={2} sx={{ marginLeft: 1 }} pt={2} >
+            <Grid container spacing={2} pt={2} >
                 <Grid item xs={12}>
                     <Typography variant="h4">Welcome to My Website</Typography>
                     <Typography variant="body1" gutterBottom>
@@ -26,8 +26,8 @@ function Content() {
                         deserunt mollit anim id est laborum."
                     </Typography>
                 </Grid>
-                <Grid item xs={12} sm={18} md={6}>
-                    <Card sx={{ maxWidth: 450 }}>
+                <Grid item xs={12} sm={12} md={6} >
+                    <Card sx={{ maxWidth: { xs: 500,sm:800, md: 350 }}}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -50,8 +50,8 @@ function Content() {
                     </Card>
                 </Grid>
 
-                <Grid item sm={18} md={6}xs={6}>
-                    <Card sx={{ maxWidth: 450 }}>
+                <Grid item sm={6} md={6}xs={12}>
+                    <Card sx={{ maxWidth: 350 }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -74,8 +74,8 @@ function Content() {
                     </Card>
                 </Grid>
 
-                <Grid item sm={18} md={6}xs={6}>
-                    <Card sx={{ maxWidth: 450 }}>
+                <Grid item sm={6} md={6}xs={12}>
+                    <Card sx={{ maxWidth: 350 }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
