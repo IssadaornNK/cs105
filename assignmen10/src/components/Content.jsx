@@ -26,8 +26,8 @@ function Content() {
                         deserunt mollit anim id est laborum."
                     </Typography>
                 </Grid>
-                <Grid item xs={6}>
-                    <Card sx={{ maxWidth: 345 }}>
+                <Grid item xs={12} sm={18} md={6}>
+                    <Card sx={{ maxWidth: 450 }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -50,8 +50,8 @@ function Content() {
                     </Card>
                 </Grid>
 
-                <Grid item xs={6}>
-                    <Card sx={{ maxWidth: 345 }}>
+                <Grid item sm={18} md={6}xs={6}>
+                    <Card sx={{ maxWidth: 450 }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -74,8 +74,8 @@ function Content() {
                     </Card>
                 </Grid>
 
-                <Grid item xs={6}>
-                    <Card sx={{ maxWidth: 345 }}>
+                <Grid item sm={18} md={6}xs={6}>
+                    <Card sx={{ maxWidth: 450 }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
