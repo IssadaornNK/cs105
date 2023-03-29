@@ -9,23 +9,24 @@ import { Grid } from '@mui/material';
 
 function App() {
   return (
-    <Box>
+    <div className="App">
+     <Box>
       <Nav />
-      <Grid container justify="flex" sx={{ m: 2 }}>
-        <Grid  item xs={3} >
-          <Sidebar />
+      <Container >
+        <Grid container direction="row" spacing={2} pt={5}>
+          <Grid item xs={3}>
+            <Sidebar />
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <Content />
+          </Grid>
+          <Grid item xs={3}>
+            <Rightbar />
+          </Grid>
         </Grid>
-        <Grid item sx={{ p: -2 }}>
-        <Container fixed>
-          <Content />
-        </Container>
-        </Grid>
-
-        <Grid item xs={3}>
-          <Rightbar />
-        </Grid>
-      </Grid>
+      </Container>
     </Box>
+    </div>
   );
 }
 

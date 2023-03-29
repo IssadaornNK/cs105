@@ -26,7 +26,7 @@ function Content() {
                         deserunt mollit anim id est laborum."
                     </Typography>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={6}>
                     <Card sx={{ maxWidth: 345 }}>
                         <CardActionArea>
                             <CardMedia
