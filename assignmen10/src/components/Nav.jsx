@@ -15,9 +15,14 @@ export default function ButtonAppBar() {
           <Typography component="div" sx={{ flexGrow: 1 }}>
             My Website
           </Typography>
+          <Box sx={{display:{xs:'none',md:'flex'}}}>
           <Button color="inherit">Home</Button>
           <Button color="inherit">About</Button>
           <Button color="inherit">Contact</Button>
+          </Box>
+          <Box sx={{display:{xs:'flex', md:'none'}}}>
+            <Button sx={{color:'white'}}><MenuIcon /></Button>
+        </Box>
         </Toolbar>
       </AppBar>
     </Box>
