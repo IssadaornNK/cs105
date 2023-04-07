@@ -4,32 +4,20 @@ import BottomNavigationAction from "@mui/material/BottomNavigationAction";
 import RestoreIcon from "@mui/icons-material/Restore";
 import { useNavigate } from "react-router-dom";
 import { CalendarMonth, Today } from "@mui/icons-material";
+import { width } from "@mui/system";
 
-function BottomNav() {
-  const [value, setValue] = React.useState("");
-  const navigate = useNavigate();
-  const handleChange = (event, newValue) => {
-    navigate(`/${newValue}`);
-  };
-  return (
-    <BottomNavigation
-      sx={{ width: "100%" }}
-      value={value}
-      onChange={handleChange}
-    >
-      <BottomNavigationAction
-        label="Incoming"
-        value="todo"
-        icon={<RestoreIcon />}
-      />
-      <BottomNavigationAction label="Today" value="today" icon={<Today />} />
-      <BottomNavigationAction
-        label="Calendar"
-        value="Calendar"
-        icon={<CalendarMonth />}
-      />
-    </BottomNavigation>
-  );
+export default function BottomNav(){
+    const [value, setValue] = React.useState("");
+    const navigate = useNAvigate();
+    const handleChange = (event, newValue) => {
+        navigate('/${newValue}');
+    };
+
+    return(
+        <BottomNavigation
+        sx={{width: "100%"}}
+        value={value}
+        onChange={handleChange}
+        ></BottomNavigation>
+    )
 }
-
-export default BottomNav;
