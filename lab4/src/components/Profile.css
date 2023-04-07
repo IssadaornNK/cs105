@@ -3,18 +3,16 @@
     flex-direction: column;
     align-items: center;
 }
-
 img{
+    width: 70%;
     border-radius: 50%;
     margin: 0;
-    width: 200px;
-    height: 200px;
 }
 .name{
     font-size: 2rem;
     font-weight: 500;
     margin: 20px;
-    color: #727373
+    color: #727373;
 }
 hr{
     width: 300px;
