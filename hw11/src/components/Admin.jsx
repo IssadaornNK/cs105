@@ -11,7 +11,7 @@ function Admin({ userLogin, setuserLogin }) {
 
     return (
         <div>
-            <img src="src/assets/Pic1.jpg" alt="Pallas Cat" />
+            <img src="assets/Pic1.jpg" alt="me" />
             <h1>This is Admin Page</h1>
             <button className='logout' onClick={handleLogout}>Logout</button>
         </div>
