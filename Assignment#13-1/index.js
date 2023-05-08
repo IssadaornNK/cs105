@@ -1,9 +1,11 @@
 const express = require("express");
 const mysql = require("mysql2");
+const bodyParser = require("body-parser");
 const bcrypt = require("bcrypt");
 const app = express();
 const port = 3000;
-const bodyParser = require("body-parser");
+const salt = 10;
+
 
 // Configure the MySQL connection
 const connection = mysql.createConnection({
