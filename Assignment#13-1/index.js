@@ -12,7 +12,7 @@ const connection = mysql.createConnection({
   host: "server2.bsthun.com",
   port: "6105",
   user: "lab_2edoyj",
-  password: "WGU7itf6rgeXssZ1",
+  password: "613rNFpLUaevk3Ni",
   database: "lab_todo02_2e5rfhu",
 });
 
